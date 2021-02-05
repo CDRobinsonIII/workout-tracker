@@ -1,14 +1,13 @@
 // Create workout model, include: 
-// Name of workout
-// Type of workout (resistance or cardio)
-// Weight being used
-// Number of sets
-// Number of reps
-// Duration of exercise. 
-// Distance traveled if it is a cardio exercise.
-// Add multiple workouts to the same day. Would this be tracked by day of the week?
+// Name of workout = name
+// Type of workout (resistance or cardio) = type
+// Weight being used = weight
+// Number of sets = sets
+// Number of reps = reps
+// Duration of exercise= duration
+// Distance traveled if it is a cardio exercise = distance
 
-// Your "last workout" on the index.html will display current date with totals for:
+// Your "last "(updated) workout" on the index.html will display current date with totals for:
 // Duration
 // Execercises performed
 // Weight lifted
@@ -17,4 +16,18 @@
 
 // On the index.html you will be able to continue the current workout or start a new one.
 
+const mongoose = require('mongoose');
+
+const workoutSchema = mongoose.Schema({
+    _id: mongoose.mongoose.Types.ObjectId,
+    type: String,
+    name: String,
+    distance: Number,
+    duration: Number,
+    weight: Number,
+    sets: Number,
+    reps: Number
+});
+
+module.exports = mongoose.model('Workout', workoutSchema);
 
