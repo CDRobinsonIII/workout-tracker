@@ -1,5 +1,5 @@
 
-// Require express. mongoose, and logger.
+// Require express, mongoose, and logger.
 // The express package is used to a create a node server to run the workout-tracker application on.
 // It also listens for requests and manages the routes for the application. 
 const express = require("express");
@@ -31,6 +31,7 @@ app.use(express.static(__dirname + "/public"));
 // Set useNewUrlParser:true to use new URL parser; versus using the the default parser which is going to be deprecated soon.
 // Set useFindAndModify:false to use findOneAndUpdate(), findOneAndReplace, and findOneAndDelete().
 // Set useUnifiedTopology:true to use the new Server discover and monitoring engine, otherwise it will use default version which will be deprecated soon.
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false,
