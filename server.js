@@ -34,7 +34,7 @@ app.use(express.static(__dirname + "/public"));
 // Set useFindAndModify:false to use findOneAndUpdate(), findOneAndReplace, and findOneAndDelete().
 // Set useUnifiedTopology:true to use the new Server discover and monitoring engine, otherwise it will use default version which will be deprecated soon.
 
-const url = `mongodb+srv://cdrmongodb:db04class@workout-tracker.jw3s7.mongodb.net/workoutTracker?retryWrites=true&w=majority`;
+const url = "mongodb://localhost/workout";
 mongoose.connect(process.env.MONGODB_URI || url, {
   useNewUrlParser: true,
   useFindAndModify: false,
