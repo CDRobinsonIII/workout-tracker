@@ -1,6 +1,6 @@
 // Enter routes here to perform CRUD operations with the MongoDB
 // When the user starts the application they will be able to either CREATE a new workout or continue (GET) last workout.
-const Workout = require("../models/Workout.js");
+const Workout = require("../models/workout.js");
 
 const router = require("express").Router();
 
