@@ -22,9 +22,11 @@ const app = express();
 app.use(logger("dev"));
 
 // Middleware to interpet the data being passed to POST and PUT routes. 
+// Parse request body as JSON.
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(__dirname + "/public"));
 
 // Use mongoose to connect o Mongodb locally. Might have to change to work with Mongo Altas and Heroku.
