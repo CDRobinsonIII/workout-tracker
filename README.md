@@ -68,5 +68,5 @@ Please visit my github page to review my other repositories: [CDRobinsonIII](htt
 
 ![Here is a screenshot of the exercise page of the workout application.](/public/assets/images/screenshot-workout-tracker_02.jpg)
 
-![Here is a screenshot of the dashboard page of the workout application.](/public/assets/images/screenshot-workout-tracker_03.jpg)
+![Here is a screenshot of the dashboard page of the workout application.](/public/assets/images/screenshot-workout-tracker_03_01.jpg)
 
