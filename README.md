@@ -2,7 +2,7 @@
 ![GitHub License](https://img.shields.io/badge/License-MIT-blue) 
 
 ## Description 
-The mission of this project was to finish developing a Node.JS/MongodDB workout tracker application. The frontend of the application was provided. To finish the application I had to create the Node Express server.js file, connect to a MongoDB database using the mongoose package, create the workout model for the MongoDB database, and create the API routes for the various CRUD operations for the application. The application allows the user to enter the different exercises they perform for their workouts. The user can view their last workout on the home page and their workout duration weights lifted stats on the workout stats page. The workouts and exercises are stored in a MongoDB database using the MongoDB Atlas cloud platform. 
+The mission of this project was to finish developing a Node.JS/MongodDB workout tracker application. The frontend of the application was provided. To finish the application I had to create the Node Express server.js file, connect to a MongoDB database using the mongoose package, create the workout model for the MongoDB database, and create the API routes for the various CRUD operations for the application. The application allows the user to enter the different exercises they perform for their workouts. The user can view their last workout on the home page and their workout duration and total weights lifted stats on the workout stats page. The workouts and exercises are stored in a MongoDB database using the MongoDB Atlas cloud platform. 
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
@@ -59,6 +59,7 @@ There are no built-in tests for the workout tracker application. You can test th
 
 ## Questions
 If you have any questions about this README generator application or to report any issues with the application please email me at charlesdalerobinson@gmail.com.
+<p></p>
 Please visit my github page to review my other repositories: [CDRobinsonIII](https://github.com/CDRobinsonIII)
 
 ## Screenshots of the workout tracker application in use
